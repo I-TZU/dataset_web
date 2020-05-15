@@ -31,13 +31,13 @@ body{
   color: #FFFFFF;
   position: fixed;
   width: 100%;
-  top: 120px;
+  top: 60px;
   overflow: auto;
 }
 
 div.fixed {
   position: fixed;
-  top: 102px;
+  top: 130px;
   bottom: 0px;
   width: 100%;
 }
