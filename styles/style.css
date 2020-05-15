@@ -31,7 +31,8 @@ body{
   color: #FFFFFF;
   position: fixed;
   width: 100%;
-  top: 60px;
+  top: 120px;
+  overflow: auto;
 }
 
 div.fixed {
