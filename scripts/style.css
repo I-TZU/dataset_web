@@ -1,0 +1,155 @@
+html {
+  /*font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Rubik', sans-serif;
+  /*background-color: #E99E9E;*/
+}
+
+
+body{
+  /* width: 900px; */
+  width: 100%;
+  height: 100%;
+  /* color: #FFF; */
+  margin:0 auto;
+}
+
+#header{
+  width: 100%;
+  /* background-color: #425660; */
+  background-color: #99FF4D;
+  color: #008000;
+  /* padding: 20px; */
+  position: fixed;
+}
+
+#nav{
+  /* background-color: #20292F; */
+  /* padding: 5px; */
+  /* overflow: hidden; */
+  /* background-color: #20292F; */
+  background-color: #008000;
+  color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  overflow: auto;
+}
+
+div.fixed {
+  position: fixed;
+  top: 102px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.parent {
+  display: flex;
+  height: 100%;
+}
+
+.child {
+  padding: 20px;
+  line-height: 1em;
+}
+
+#aside {
+  flex-grow: 1;
+  /* background-color: #63808F; */
+  background-image: url('../images/tomato_2.jpeg');
+  background-size: contain;
+  
+}
+#section {
+  flex-grow: 9;
+  /* background-color: #849DAA; */
+  background-color: #FFFFFF;
+  overflow: auto;
+}
+
+#section div {
+  /* height: 300vh; */
+}
+
+
+
+
+
+#footer{
+  padding:20px;
+  background-color: #425660;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1{
+  font-size: 24px;
+  text-align: center;
+}
+
+h2.middle-title {
+  font-size: 18px
+}
+
+h2.aside {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-style: italic;
+}
+
+h3.small-title {
+  font-size: 14px
+}
+
+/* section h2 { */
+  /* text-indent: 0em; */
+/* } */
+
+section p {
+  text-indent: 2em; /* 後退兩字元 */
+}
+
+aside p {
+  text-indent: 2em;
+}
+
+
+
+
+
+
+nav > ul {
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem; /* 1.2rem */
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav li:hover {
+    background-color: #90EE90;
+    color: black;
+}
+
+.inline-block-nav {
+    text-align: center;
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
+}
+
+.inline-block-nav > li {
+    display: inline-block;
+}
+
+
+
+
+
